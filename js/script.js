@@ -8,7 +8,6 @@ jQuery(function ($) {
 		}
 		$filter.html("");
 		var $input = $('<input type="text" />').val(filter).appendTo($filter);
-		// $input.focus().select();
 		$input[0].setSelectionRange(0, 9999);
 	});
 });
