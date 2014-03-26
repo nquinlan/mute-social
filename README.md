@@ -1,4 +1,4 @@
-# [SocialMute.com](http://socialmute.com/)
+# [MuteSocial.com](http://mutesocial.com/)
 _Mute Filters for Events and Common Tweets_
 
 This repository controls SocialMute.com, a list of social mute filters. Currently, focused mostly on Twitter/Tweetbot, but with potential to expand into the future.
