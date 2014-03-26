@@ -116,6 +116,10 @@ a:visited { color: #a0a; }
   overflow: hidden;
 }
 
+.footer .follow {
+  margin-top: 2em;
+}
+
 .footer .contact {
   float: left;
   margin-right: 3em;
