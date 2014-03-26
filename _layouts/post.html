@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="post">
+
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+{{ content }}
+
+{% if page.filter %}
+<div id="filter">
+{% highlight ruby %}
+{{ page.filter }}
+{% endhighlight %}
+</div>	
+{% endif %}
+
+{% if page.filter %}
+<div id="add-to">
+	<a href="tweetbot:///mute/keyword?text=%28%3F%23{{ page.short | uri_escape }}%29{{ page.filter | uri_escape | replace: "(","%28" | replace: ")","%29" }}{% if page.regex %}&regex=1{% endif %}" class="btn-add tweetbot">Add To Tweetbot</a>
+</div>	
+{% endif %}
+</div>
+
