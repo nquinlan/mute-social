@@ -6,7 +6,7 @@
 		<title>{{ page.title }}{% if page.title.size < 44 %} | Social Mute - Hide Tweets{% endif %}</title>
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="Hide discussion about {% if page.short %}{{ page.short }}{% else %}{{ page.title }}{% endif %} on Twitter with this mute filter. Add the filter to Tweetbot or any other tool.">
-		<link rel="icon" src="{{ site.url }}/images/ear.png" />
+		<link rel="icon" type="image/png" src="{{ site.url }}/images/ear.png" />
 		<script>
 			site = {{ site | jsonify }}
 			page = {{ page | jsonify }}
