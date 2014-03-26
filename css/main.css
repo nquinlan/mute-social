@@ -139,6 +139,15 @@ a:visited { color: #a0a; }
 	line-height: 2;
 }
 
+.post .regex-marker {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	background: #eee;
+	display: inline-block;
+	margin: 0 0 20px 0;
+	padding: 0 5px;
+}
+
 .post pre, #filter input {
   border: 1px solid #ddd;
   background-color: #eef;

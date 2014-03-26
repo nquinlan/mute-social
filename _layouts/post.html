@@ -8,6 +8,10 @@ layout: default
 
 {{ content }}
 
+{% if page.regex %}
+<div class="regex-marker">Regular Expression</div>
+{% endif %}
+
 {% if page.filter %}
 <div id="filter">
 {% highlight ruby %}
