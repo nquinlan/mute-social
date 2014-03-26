@@ -17,6 +17,7 @@ body {
   font-family: 'Averia Serif Libre', serif; 
   font-size: 16px;
   text-align: center;
+  padding: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,6 +29,8 @@ p { margin: 1em 0; }
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
+
+#github-link img { max-width: 100px; }
 
 /*****************************************************************************/
 /*
@@ -49,6 +52,10 @@ a:visited { color: #a0a; }
   font-size: 80%;
 }
 
+.posts a {
+  display: block;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -57,10 +64,11 @@ a:visited { color: #a0a; }
 
 .site {
   font-size: 115%;
-  text-align: justify;
+  text-align: left;
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+  max-width: 100%;
 }
 
 .header img {
@@ -148,10 +156,19 @@ a:visited { color: #a0a; }
 	padding: 0 5px;
 }
 
+.post #filter, .post .highlight, #filter input {
+	max-width: 100%;
+	overflow: hidden;
+}
+
 .post pre, #filter input {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
+}
+
+.post pre {
+  overflow: auto;
 }
 
 .post ul, .post ol {
@@ -247,4 +264,11 @@ a:visited { color: #a0a; }
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 50%;
+}
+
+@media screen and (min-width: 500px) {
+  .posts a {
+    display: inline;
+  }
+  #github-link img { max-width: 150px; }
 }
