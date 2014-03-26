@@ -7,4 +7,4 @@ filter: (?i)(occ?ulus|facebook.+(buy|purchase|acqui))
 regex: true
 ---
 
-Mute news of Facebook Acquiring Occulus.
+Mute news of Facebook Acquiring Oculus.
