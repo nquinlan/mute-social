@@ -4,7 +4,7 @@ jQuery(function ($) {
 		var $filter = $pre.closest("#filter");
 		var filter = $pre.text();
 		if(page.regex === true) {
-			filter = "(?#" + page.short + ")" + filter;
+			filter = "(?#" + page.short.replace(/[\(\)]/,"") + ")" + filter;
 		}
 		$filter.html("");
 		var $input = $('<input type="text" />').val(filter).appendTo($filter);
