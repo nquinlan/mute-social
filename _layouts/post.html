@@ -22,7 +22,7 @@ layout: default
 
 {% if page.filter %}
 <div id="add-to">
-	<a href="tweetbot:///mute/keyword?text=%28%3F%23{{ page.short | uri_escape }}%29{{ page.filter | uri_escape | replace: "(","%28" | replace: ")","%29" }}{% if page.regex %}&regex=1{% endif %}" class="btn-add tweetbot">Add To Tweetbot</a>
+	<a href="tweetbot:///mute/keyword?text=%28%3F%23{{ page.short | uri_escape }}%29{{ page.filter | uri_escape | replace: "(","%28" | replace: ")","%29" | replace: "?","%3F" }}{% if page.regex %}&regex=1{% endif %}" class="btn-add tweetbot">Add To Tweetbot</a>
 </div>	
 {% endif %}
 </div>
