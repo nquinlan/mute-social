@@ -1,7 +1,7 @@
 # [MuteSocial.com](http://mutesocial.com/)
 _Mute Filters for Events and Common Tweets_
 
-This repository controls SocialMute.com, a list of social mute filters. Currently, focused mostly on Twitter/Tweetbot, but with potential to expand into the future.
+This repository controls MuteSocial.com, a list of social mute filters. Currently, focused mostly on Twitter/Tweetbot, but with potential to expand into the future.
 
 ## Site Structure
 The site uses [Jekyll](http://jekyllrb.com/) so it may render on [GitHub pages](http://pages.github.com/). All filters are kept in the directory `_posts/`.
