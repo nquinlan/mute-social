@@ -4,7 +4,7 @@ _Mute Filters for Events and Common Tweets_
 This repository controls MuteSocial.com, a list of social mute filters. Currently, focused mostly on Twitter/Tweetbot, but with potential to expand into the future.
 
 ## Site Structure
-The site uses [Jekyll](http://jekyllrb.com/) so it may render on [GitHub pages](http://pages.github.com/). All filters are kept in the directory `_posts/`.
+The site uses [Jekyll](http://jekyllrb.com/) so that it may render on [GitHub pages](http://pages.github.com/). All filters are kept in the directory `_posts/`.
 
 ### Filter Frontmatter
 All filters have some required [YAML frontmatter](http://jekyllrb.com/docs/frontmatter/), as seen below:
@@ -20,4 +20,4 @@ regex: true # whether or not your filter is a regex
 
 ## Contributing
 
-If you wish to add your regular expression, simply make a pull request to the repository.
+If you wish to add a new filter or fix and existing one, simply make a pull request to the repository.
